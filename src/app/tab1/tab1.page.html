@@ -1,17 +1,55 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
+  <ion-toolbar color="warning">
     <ion-title>
-      Tab 1
+      Filmes
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-grid>
+
+    <ion-row> <!-- [START] 1º row -->
+
+      <ion-col size="6"> <!-- [START] 1º column -->
+        <h1>Sonic: O filme</h1>
+          <h2>12 de fevereiro de 2020</h2>
+          <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/Kt9iFdTu5TbAm7tNfc876mrWU.jpg"/>
+            <p>Depois de descobrir um ouriço pequeno, azul e rápido, um policial de uma pequena cidade deve ajudá-lo a derrotar um gênio do mal que deseja fazer experiências com…</p>
+              <ion-button expand="block" fill="outline">Mais informações</ion-button>
+      </ion-col> <!-- [END] 1º column -->
+
+      <ion-col size="6"> <!-- [START] 2º column -->
+        <h1>Sonic: O filme</h1>
+          <h2>25 de dezembro de 2019</h2>
+            <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/p6lDTyJl7SEbv4jZkftVBPndZH2.jpg"/>
+              <p>Em um dos momentos críticos da Primeira Guerra Mundial, dois soldados britânicos, Schofield e Blake, recebem uma missão aparentemente impossível. Em uma luta contra…</p>
+              <ion-button expand="block" fill="outline">Mais informações</ion-button>
+      </ion-col> <!-- [END] 2º column -->
+
+    </ion-row> <!-- [END] 1º row-->
+
+    <ion-row> <!-- [START] 2º row -->
+
+      <ion-col size="6"> <!-- [START] 1º column -->
+        <h1>13 Horas: Os soldados secretos de Benghazi</h1>
+          <h2>13 de janeiro de 2016</h2>
+          <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/d3sb4sBBbDzLYVZAi5u3I2beRtq.jpg"/>
+            <p>Baseado em fatos reais, o longa conta a história de um grupo de seis soldados privados que trabalham num complexo da CIA em Benghazi, na Líbia, em 2012. Em um anivers…</p>
+              <ion-button expand="block" fill="outline">Mais informações</ion-button>
+      </ion-col> <!-- [END] 2º column -->
+
+      <ion-col size="6"> <!-- [START] 2º column -->
+        <h1>Parasita</h1>
+          <h2>30 de maio de 2019</h2>
+            <img src="https://image.tmdb.org/t/p/w185_and_h278_bestv2/bNGW8zYA91VqTZfV3jnKHPEKKvB.jpg"/>
+              <p>Toda a família de Ki-taek está desempregada, vivendo num porão sujo e apertado. Uma obra do acaso faz com que o filho adolescente da família comece a dar aulas de…</p>
+              <ion-button expand="block" fill="outline">Mais informações</ion-button>
+      </ion-col> <!-- [END] 2º column -->
+
+    </ion-row> <!-- [END] 2º row -->
+
+  </ion-grid>
+
 </ion-content>
